@@ -9,7 +9,7 @@ const Notification=()=>{
                 <div key={pos} className="notification">
                     <img className="noti-images" src={item.pic}/>
                     <div>
-                        <h4 className="message">{item.message}</h4>{console.log(item.message)}
+                        <h4 className="message">{item.message}</h4>
                         <p className="time">{item.time}</p>
                     </div>
                 </div>

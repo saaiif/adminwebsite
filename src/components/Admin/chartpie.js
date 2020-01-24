@@ -17,8 +17,8 @@ class ChartPie extends Component {
 						JSON.parse(localStorage.getItem('Response')).dasbhoardPage.storage.available
 					],
 					borderColor: '#fff',
-					backgroundColor: [ 'tomato', 'aqua', 'lightgreen' ],
-					hoverBackgroundColor: [ 'red', 'cyan', 'green' ]
+					backgroundColor: [ '#E57373', '#80D8FF', '#AED581' ],
+					hoverBackgroundColor: [ '#EF5350', '#40C4FF	 ', '#8BC34A' ]
 				}
 			]
 		}

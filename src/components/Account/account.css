@@ -53,6 +53,7 @@ option {
 	margin-bottom: 30px;
 	font-weight: 700;
 	padding: 20px 40px;
+	font-size: 1.1rem;
 }
 .avatar-con i {
 	position: absolute;
@@ -73,8 +74,8 @@ option {
 }
 .avatar-con img {
 	cursor: pointer;
-    width: 310px;
-    margin: auto;
+	width: 310px;
+	margin: auto;
 	height: 255px;
 	display: block;
 }
@@ -128,7 +129,7 @@ option {
 }
 .set-con h2 {
 	margin-bottom: 30px;
-	font-size: 20px;
+	font-size: 1.1rem;
 	font-weight: 700;
 	margin-left: 40px;
 	padding-top: 20px;
@@ -147,8 +148,6 @@ option {
 	display: flex;
 	margin-top: 10px;
 }
-
-
 
 input[type="file" i] {
 	width: 300px;
@@ -229,42 +228,56 @@ input[type="file" i] {
 
 @media (max-width: 1125px) {
 	.update-btn {
-		width: 46.9%;
+		width: 275px;
+		/* font-size: 0.8rem; */
 	}
 	.acc-form-group input {
-		width: 218px;
+		width: 275px;
 	}
+	
 	.delete-btn {
-		width: 220%;
-    }
-    .avatar-con img {
-		width: 250px;
+		width: 560px;
+		z-index: 1;
+	}
+	.btn {
+		width: 150px;
+		padding-top: 6px;
+	}
+	.avatar-con img {
+		width: 150px;
 
 		display: block;
 		margin: auto;
-    }
-    .btn{
-        width: 200px;
-    }
+	}
+	.spacebtw {
+		margin-right: 10px;
+	}
+	.dropdown {
+		width: 90%;
+		font-size: 18px;
+	}
+	input[type="file" i] {
+		width: 41px;
+	}
 }
 
 @media (max-width: 1024px) {
 	.update-btn {
-		width: 180px;
+		width: 400px;
 		font-size: 0.8rem;
 	}
 	.acc-form-group input {
-		width: 180px;
+		width: 400px;
 	}
 	.delete-btn {
-        width: 385px;
-        z-index: 1;
+		width: 400px;
+		z-index: 1;
 	}
 	.btn {
-		width: 230px;
+		width: 210px;
 	}
 	.avatar-con img {
-		width: 258px;
+		width: 220px;
 
 		display: block;
 		margin: auto;
@@ -280,34 +293,30 @@ input[type="file" i] {
 		width: 294px;
 	}
 	.delete-btn {
-        width: 292px;
-        z-index: 1;
+		width: 292px;
+		z-index: 1;
 	}
 	.btn {
-        width: 150px;
-        padding-top: 6px;
-
+		width: 150px;
+		padding-top: 6px;
 	}
 	.avatar-con img {
 		width: 150px;
 
 		display: block;
 		margin: auto;
-    }
-    .spacebtw {
-        margin-right: 1px;
-    }
-    .dropdown {
-      
-        width: 540px;
-        font-size: 25px;
-        
-    }
-    input[type="file" i] {
-        width: 41px;
-    }
+	}
+	.spacebtw {
+		margin-right: 1px;
+	}
+	.dropdown {
+		width: 540px;
+		font-size: 25px;
+	}
+	input[type="file" i] {
+		width: 41px;
+	}
 }
-
 
 /* @media (max-width: 574px)
 {
